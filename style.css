@@ -1,0 +1,26 @@
+p {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: yellow;
+  font-family: "Comic Sans MS";
+}
+
+.bluetext {
+  color: blue;
+}
+
+.noUnderline {
+  text-decoration: none;
+}
+
+#noBackground {
+  background-color: transparent;
+}
+
+body {
+  background-color: var(--primary-color);
+  
+  --primary-color: black;
+}
